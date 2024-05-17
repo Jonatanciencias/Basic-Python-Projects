@@ -48,12 +48,16 @@ class app:
         # Collect user inputs
         print("Describe what life should be like.")
         adjective = input("Enter an adjective: ")
+        print("-"*30)
         print("Action that one must do every day.")
         verb = input("Enter a verb: ")
+        print("-"*30)
         print("Something to be valued or treasured.")
         noun = input("Enter a noun: ")
+        print("-"*30)
         print("A place that should be peaceful.")
         place = input("Enter a place: ")
+        print("-"*30)
         print("An emotional state that should be maintained.")
         feeling = input("Enter a feeling: ")
 
