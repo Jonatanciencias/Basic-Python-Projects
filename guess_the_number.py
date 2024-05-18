@@ -43,9 +43,11 @@ class GuessTheNumber:
 class Game:
     def run(self):
         # Print welcome messages
+        print('='*30)
         print('Welcome to Guess The Number!')
         print('I am thinking of a number between 1 and 100')
         print('Can you guess what it is?')
+        print('='*30)
         
         # Create an instance of GuessTheNumber with upper_limit 100
         guess_the_number = GuessTheNumber(100)
